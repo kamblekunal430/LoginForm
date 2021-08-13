@@ -1,5 +1,9 @@
 <?php
 
+/*
+This file has the logic for login validation of user
+*/
+
 if($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['login'])){
     if (isset($_POST['email']) && isset($_POST['password']) ){
             

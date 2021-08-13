@@ -1,5 +1,11 @@
 
+
+
 <?php
+
+/*
+This file has the logic to store the registration data of the user
+*/
 
 if($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['register'])){
     if (isset($_POST['name'])  && isset($_POST['contact']) && isset($_POST['email']) && 

@@ -1,3 +1,4 @@
+// Funtion to validate the email address
 function validateEmail() {
   var emailAdd = $("#email").val();
   var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
@@ -11,6 +12,7 @@ function validateEmail() {
   return true;
 }
 
+// Function to validate the contact number
 function validateNumber() {
   var number = $("#contact").val();
   var reg = /^([0-9]{10})$/;
@@ -23,6 +25,7 @@ function validateNumber() {
   return true;
 }
 
+// Function to check the password/comfirm password match
 function checkPass() {
   var pass = $("#password").val();
   var cpass = $("#cpassword").val();
